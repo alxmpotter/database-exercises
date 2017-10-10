@@ -20,4 +20,14 @@ VALUES
   ('Eagles', 'Hotel California', '1976', '21.5', 'Rock, Folk rock'),
   ('Adele', '21', '2011', '17.9', 'Pop, Soul'),
   ('Celine Dion', 'Let''s Talk About Love', '1997', '17.9', 'Pop, Soft rock'),
-  ('The Beatles', '1', '2000', '19.3', 'Rock');
+  ('The Beatles', '1', '2000', '19.3', 'Rock'),
+  ('Madonna',	'The Immaculate Collection',	'1990', '19.4', 'Pop, Dance'),
+  ('The Beatles',	'Abbey Road',	'1969', '14.4', 'Rock'),
+  ('Bruce Springsteen', 'Born in the USA', '1984', '19.6', 'Rock'),
+  ('Dire Straits',	'Brothers in Arms',	'1985', '17.7',	'Rock, Pop'),
+  ('James Horner',	'Titanic: Music from the Motion Picture',	'1997', '18.1',	'Soundtrack'),
+  ('Metallica',	'Metallica',	'1991',	'21.2', 'Thrash metal, Heavy metal'),
+  ('Nirvana',	'Nevermind',	'1991', '16.7',	'Grunge, Alternative rock'),
+  ('Pink Floyd',	'The Wall',	'1979', '17.6',	'Progressive rock'),
+  ('Santana',	'Supernatural',	'1999', '20.5', 'Rock'),
+  ('Guns N'' Roses',	'Appetite for Destruction',	'1987', '21.6',	'Hard rock');
