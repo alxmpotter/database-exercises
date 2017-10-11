@@ -23,6 +23,13 @@ SELECT release_date FROM albums WHERE record = 'Sgt. Pepper''s Lonely Hearts Clu
 SELECT 'The genre of Nirvana''s album Nevermind:' AS '';
 SELECT genre FROM albums WHERE record = 'Nevermind';
 
+SELECT 'Albums released in the 90''s:' AS '';
+SELECT record, release_date FROM albums WHERE release_date BETWEEN 1990 AND 1999;
 
+SELECT 'Albums with less than 20 million in sales:' AS '';
+SELECT record FROM albums WHERE sales < 20;
+
+SELECT 'All albums in Rock genre:' AS '';
+SELECT record FROM albums WHERE genre = 'Rock';
 
 -- select * from albums;
