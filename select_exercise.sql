@@ -29,6 +29,8 @@ SELECT record, release_date FROM albums WHERE release_date BETWEEN 1990 AND 1999
 SELECT 'Albums with less than 20 million in sales:' AS '';
 SELECT record FROM albums WHERE sales < 20;
 
+-- use LIKE to find similar instances not exact use % to search for instances that end/begin with selected item.
+-- e.g genre LIKE '%Rock%' = starts with and ends with rock
 SELECT 'All albums in Rock genre:' AS '';
 SELECT record FROM albums WHERE genre = 'Rock';
 
