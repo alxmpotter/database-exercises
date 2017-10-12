@@ -8,7 +8,7 @@ FROM titles;
 
 SELECT DISTINCT title
 FROM titles
-GROUP BY title ASC;
+GROUP BY title;
 
 -- query for unique last names that start and end with e
 SELECT last_name
